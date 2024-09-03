@@ -57,7 +57,7 @@ jobs:
             submodules: 'true'
 
       # Download artifacts for release
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           path: etc/usr/artifacts/
 
